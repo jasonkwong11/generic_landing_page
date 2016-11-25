@@ -1,0 +1,29 @@
+html{
+  background-color: beige;
+  padding: 50px;
+  margin: 0 20px 10px 0;
+  display: block;
+}
+
+article{
+  float: left;
+  width: 66.666%;
+}
+
+aside{
+  float: right;
+  width: 33.333%;
+}
+
+footer{
+  clear: both;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
